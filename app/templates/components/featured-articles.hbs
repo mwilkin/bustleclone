@@ -1,0 +1,15 @@
+{{#carousel-container transition-interval=400}}
+  {{#carousel-body}}
+    {{#each article as |item|}}
+      {{#if item.featured}}
+        {{#carousel-item}}
+          <img src="{{item.image}}">
+          
+        {{/carousel-item}}
+      {{/if}}
+    {{/each}}
+  {{/carousel-body}}
+
+  {{carousel-arrow direction="left" class="line-arrow left"}}
+  {{carousel-arrow direction="right" class="line-arrow right"}}
+{{/carousel-container}}

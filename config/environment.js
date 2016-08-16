@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyBpvOD297l0gZcUswkFlQdy11QKIPQ0iBQ",
+      authDomain: "bstlclone.firebaseapp.com",
+      databaseURL: "https://bstlclone.firebaseio.com",
+      storageBucket: "bstlclone.appspot.com",
+    },
     modulePrefix: 'bustleclone',
     environment: environment,
     baseURL: '/',
